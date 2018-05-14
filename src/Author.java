@@ -12,7 +12,6 @@ public class Author extends Person {
         books = new ArrayList<String>();
     }
 
-
     public List<String> publishedBooks() {
         return books;
     }
