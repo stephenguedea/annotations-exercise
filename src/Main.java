@@ -7,6 +7,7 @@ public class Main {
 
         for (String book: author.publishedBooks()) {
             System.out.println(book);
+            System.out.println(book + " is written by " + author.fullName() + ".");
         }
     }
 }
